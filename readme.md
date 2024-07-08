@@ -9,9 +9,9 @@ A basic Python script part of a data pipeline that queries and retrieves Solana 
 Requirements: Python 3.9+
 
 1. Create virtualenv
-2. Install Dependencies via requirements.txt and pip: `pip install -f 
-3. Create a file in the root directory named `api.key` and place your Flipside API key within
-4. Initiate the DuckDB file database by running `python init_db.py`
+2. Install Dependencies via requirements.txt and pip: `pip install -f requirements.txt`.
+3. Create a file in the root directory named `api.key` and place your Flipside API key within.
+4. Initialize the DuckDB file database by running `python init_db.py`
 5. Adjust paramenters in the `.env` file, especially for the `low_ts` and `high_ts` values, which represent the block timestamp range used for the query.
 
 ## Usage
