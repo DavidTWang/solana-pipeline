@@ -2,7 +2,7 @@
 
 ## Description
 
-A basic Python script that queries and retrieves data from the Flipside Crypto API. The data is stored in a DuckDB instance.
+A basic Python script part of a data pipeline that queries and retrieves Solana transfer data from the Flipside Crypto API and stores it into a DuckDB instance.
 
 ## Installation
 
